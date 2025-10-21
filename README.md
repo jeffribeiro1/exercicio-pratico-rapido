@@ -1,6 +1,8 @@
 _EXERCÍCIO PRÁTICO RÁPIDO_
 
-**Aluno:** Jefferson Santino Ribeiro Complete o código abaixo:
+**Aluno:** Jefferson Santino Ribeiro 
+
+Complete o código abaixo:
 
 typescript
 
