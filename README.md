@@ -1,12 +1,13 @@
-EXERCÍCIO PRÁTICO RÁPIDO
+_EXERCÍCIO PRÁTICO RÁPIDO_
 
-Aluno: Jefferson Santino Ribeiro Complete o código abaixo:
+**Aluno:** Jefferson Santino Ribeiro Complete o código abaixo:
 
 typescript
 
 // 1. Crie um tipo literal para cor com: "vermelho", "azul", "verde" type Cor = "vermelho " | "azul" | "verde";
 
-ATENÇÃO CUIDADO COM OS ESPAÇOS NOS STRINGS "vermelho''
+# ATENÇÃO CUIDADO COM OS ESPAÇOS NOS STRINGS "vermelho''
+
 // 2. Crie um tipo Carro com:
 
 // - marca (string, readonly)
@@ -19,13 +20,14 @@ ATENÇÃO CUIDADO COM OS ESPAÇOS NOS STRINGS "vermelho''
 
 type Carro = {
 
-readonly marca: string; // Nunca pode mudar
+readonly marca: string; _// Nunca pode mudar_
 
-modelo: string; // Pode mudar
+modelo: string; _// Pode mudar_
 
-cor: string; // Pode mudar
+cor: string; _// Pode mudar_
 
-ATENÇÃO você usou cor: string em vez de cor: Cor. Quando criamos um tipo customizado, devemos usá-lo! O exercício pede especificamente para usar o tipo Cor ano? : number; // Opcional
+# ATENÇÃO você usou cor: string em vez de cor: Cor. Quando criamos um tipo customizado, devemos usá-lo! O exercício pede especificamente para usar o tipo Cor ano? : number; _// Opcional_
+
 };
 
 const Carro = { marca: "Fiat",
@@ -34,18 +36,20 @@ modelo : "Uno", cor: "vermelho", ano : 2010
 
 };
 
-// 3. Crie uma função Generic que retorne o primeiro elemento de um array function primeiro<T>(array: T[]): T {
+// 3. Crie uma função Generic que retorne o primeiro elemento de um array function primeiro&lt;T&gt;(array: T\[\]): T {
 
-ATENÇÃO: Se o array estiver VAZIO: array[0] retorna undefined, mas prometemos retornar sempre T então ❌ BUG: Promessa quebrada
-Ficaria:
+# ATENÇÃO: Se o array estiver VAZIO: array\[0\] retorna undefined, mas prometemos retornar sempre T então ❌ BUG: Promessa quebrada
 
-function primeiro<T>(array: T[]): T | undefined {
+**Ficaria:**
 
-return array[0];
+**function primeiro&lt;T&gt;(array: T\[\]): T | undefined {**
 
-}
+**return array\[0\];**
 
-O undefined é como um aviso honesto que diz: "Ei, pode ser que não tenha nada aqui!"
-return array [0];
+**}**
+
+# O undefined é como um aviso honesto que diz: "Ei, pode ser que não tenha nada aqui!"
+
+return array \[0\];
 
 }
